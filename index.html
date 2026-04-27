@@ -609,6 +609,80 @@
       opacity: 0.7;
     }
 
+    /* ── RECOMMENDATIONS ── */
+    .recommendations-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .rec-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      position: relative;
+    }
+    .rec-card::before {
+      content: '\201C';
+      font-family: 'DM Serif Display', serif;
+      font-size: 5rem;
+      color: var(--accent-soft);
+      line-height: 1;
+      position: absolute;
+      top: 0.75rem;
+      right: 1.5rem;
+    }
+    .rec-quote {
+      font-size: 0.95rem;
+      color: var(--ink-soft);
+      line-height: 1.8;
+    }
+    .rec-author {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      margin-top: auto;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line);
+    }
+    .rec-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.1rem;
+      color: var(--accent);
+      flex-shrink: 0;
+    }
+    .rec-name {
+      font-weight: 500;
+      font-size: 0.92rem;
+      color: var(--ink);
+    }
+    .rec-title {
+      font-size: 0.78rem;
+      color: var(--ink-ghost);
+      margin-top: 0.15rem;
+    }
+    .rec-relation {
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-top: 0.15rem;
+    }
+    @media (max-width: 768px) {
+      .recommendations-grid { grid-template-columns: 1fr; }
+    }
+
     /* ── FOOTER ── */
     footer {
       border-top: 1px solid var(--line);
@@ -704,6 +778,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -1073,6 +1148,48 @@
             testing strategies for internal projects.
           </p>
         </div>
+      </div>
+    </section>
+
+    <!-- RECOMMENDATIONS -->
+    <section id="recommendations">
+      <div class="section-header">
+        <span class="section-num">04</span>
+        <h2>Recommendations <svg viewBox="0 0 24 24" fill="#0A66C2" style="width:1.1rem;height:1.1rem;vertical-align:middle;margin-left:0.35rem;display:inline-block;"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="recommendations-grid">
+
+        <div class="rec-card">
+          <p class="rec-quote">
+            Carolina joined our team at Wizards of the Coast to augment QA and did solid work. She helped wrangle a large, flaky Playwright e2e suite for a business-critical system and brought a more structured approach to test reliability. She was also engaged with the broader engineering team, helping spread QA knowledge and practices beyond just her immediate role. If you're looking for a QA engineer who can hit the ground running and make a real impact, I'd recommend her.
+          </p>
+          <div class="rec-author">
+            <div class="rec-avatar">FL</div>
+            <div>
+              <div class="rec-name">Frak Lopez</div>
+              <div class="rec-title">Engineering Leadership · Wizards of the Coast</div>
+              <div class="rec-relation">Direct Manager · March 2026</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rec-card">
+          <p class="rec-quote">
+            Carolina is a great team player who is able to prioritize her tasks and work independently with minimal supervision. She is able to apply her experience and skills to create test cases with excellent coverage even when there is ambiguity in the requirement.
+            <br><br>
+            Carolina also assisted in the development of test automation scripts. She was able to learn the software quickly and work together with the rest of the team in producing scripts that follow the standard and guidelines.
+          </p>
+          <div class="rec-author">
+            <div class="rec-avatar">HH</div>
+            <div>
+              <div class="rec-name">Henry Hartono</div>
+              <div class="rec-title">Senior Program Manager · Bell</div>
+              <div class="rec-relation">Client · June 2013</div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
