@@ -1,58 +1,71 @@
-# 👩‍💻 Carolina Olguin — Senior QA Engineer & SDET
+# 👩🏻‍💻 Carolina Olguin — QA/SDET Engineer · Software Development · Security
 
-> *17+ years delivering quality at scale — from healthcare to entertainment, from startups to global platforms.*
+> *17+ years engineering software quality at scale — now expanding into software development and application security.*
 
----
 
-## 🙋‍♀️ About
+## 🙋🏻‍♀️ About
 
-I'm a Senior QA Engineer and SDET with deep expertise in test automation, quality strategy, and cross-functional collaboration. Throughout my career I've worked across 8 industries — **Healthcare, Retail, Gaming, IT, Entertainment, Finance, Aerospace, and Education** — building automation frameworks from scratch, mentoring engineering teams, and owning end-to-end quality programs that drive real business outcomes.
+I'm a Senior QA/SDET Engineer with deep expertise in test automation, quality strategy, and cross-functional collaboration. Throughout my career I've worked across 8 industries — **Healthcare, Retail, Gaming, IT, Entertainment, Finance, Aerospace, and Education** — building automation frameworks from scratch, mentoring engineering teams, and owning end-to-end quality programs that drive real business outcomes.
+
+I'm actively broadening that foundation into **software development** and **application security**, writing production code beyond test scripts and applying an attacker's mindset to find what traditional QA misses.
 
 This repository is the source for my personal portfolio site:
 🌐 **[olguinc.github.io](https://olguinc.github.io)**
 
----
 
 ## 📂 What You'll Find in This Portfolio
 
-The site showcases:
-
 - 🗂️ **Professional background** — full employment history across 9 companies spanning 17+ years
-- 🛠️ **Technical skills** — hands-on expertise with modern automation tools and frameworks
-- 🚀 **Open-source projects** — real automation frameworks available on GitHub
+- 🛠️ **Technical skills** — organized across three pillars: QA & Test Automation, Software Development, and Security
+- 🚀 **Projects** — shipped automation frameworks, plus in-progress development and security projects
 - 📬 **Contact information** — LinkedIn and GitHub profiles
 
----
 
 ## 🛠️ Technical Skills
 
+**QA & Test Automation** (17+ years, core expertise)
+
 | Category | Tools & Technologies |
 |---|---|
-| **💻 Languages** | TypeScript, JavaScript, Java, C |
-| **🌐 Web Automation** | Playwright, Cypress, Selenium, Protractor, UFT |
-| **🥒 BDD** | Cucumber, Gherkin |
-| **📱 Mobile** | Appium, XCUITest, Detox, Espresso |
-| **⚡ Performance** | K6, JMeter |
-| **🧪 Testing Types** | Web, Mobile, API, Performance, Exploratory, Regression |
-| **⚙️ Practices** | CI/CD, Agile/Scrum, AI-assisted testing |
+| Web Automation | Playwright, Cypress, Selenium, Cucumber |
+| Mobile & Performance | WebdriverIO, Appium, K6, JMeter |
+| Practices | API Testing, Pytest, Allure, CI/CD, Agile/Scrum, AI-assisted testing |
 
----
+**Software Development** (actively building)
 
-## 🚀 Featured Projects
+| Category | Tools & Technologies |
+|---|---|
+| Languages | TypeScript, JavaScript, Python, Java |
+| Backend & Tools | Node.js, REST APIs, Git, Postman |
 
-### 🎯 [Halo Challenge](https://github.com/olguinc/halo-challenge)
-End-to-end automation framework built with **Cypress 10+ and Cucumber**. Features Gherkin-based scenario design, Cucumber HTML report generation, and professional environment configuration.
+**Security** (actively building)
 
-### 🧪 [BDD Automation Framework](https://github.com/olguinc/bdd-automation-framework)
-Scalable, reusable BDD-first automation framework integrating **Cypress and Cucumber** with a clean folder structure ready for real-world QA teams.
+| Category | Tools & Technologies |
+|---|---|
+| Foundations | OWASP Top 10, OWASP API Top 10, API Security Testing |
+| Tools & Practice | Burp Suite, OWASP ZAP, Nmap, TryHackMe, HackTheBox |
 
-### ⚙️ [SDET Challenge — Selenium](https://github.com/olguinc/SDET-Test-2)
-Technical code challenge solved with **Selenium WebDriver and TestNG**, demonstrating the Page Object Model pattern and SDET best practices in Java.
 
-### 🔌 [Web API Training](https://github.com/olguinc/curso-web-api)
-Java-based REST API testing project covering service consumption fundamentals and backend API testing techniques.
+## 🚀 Projects
 
----
+### QA & Automation (shipped)
+
+- **[ParaBank Project](https://github.com/olguinc/playwright-fmw)** — scalable E2E automation framework for the ParaBank demo site using Playwright and TypeScript.
+- **[Halo Challenge](https://github.com/olguinc/halo-challenge)** — full E2E automation framework built on practice-automation.com with Cypress, Cucumber, and HTML reporting.
+- **[Dice Distribution Validator Challenge](https://github.com/olguinc/SDET-Test-2)** — technical code challenge solved with Selenium WebDriver, TestNG, and the Page Object Model.
+- **[GoRest API Test Framework](https://github.com/olguinc/gorest-api-test-framework)** — Pytest + Requests API test framework against GoRest, with schema validation, chained resource flows, and a GitHub Actions CI/CD pipeline publishing Allure reports.
+
+### Software Development (in progress)
+
+- **Flaky Test Detector CLI** — Node.js CLI that ingests Playwright/Cypress run history to flag flaky tests by failure-rate pattern.
+- **Test Analytics API** — REST API aggregating automated test results across suites into one reporting layer.
+
+### Security (in progress)
+
+- **OWASP Juice Shop — Security Assessment** — structured penetration test with findings, severity ratings, and remediation guidance.
+- **API Security Test Suite** — automated checks against a deliberately vulnerable API (VAmPI), covering the OWASP API Security Top 10.
+- **CTF Writeups** — ongoing writeups from TryHackMe and HackTheBox challenges.
+
 
 ## 🏆 Career Highlights
 
@@ -63,13 +76,11 @@ Java-based REST API testing project covering service consumption fundamentals an
 - 🏗️ Built automation frameworks **from scratch** across multiple companies and tech stacks
 - 🎓 Mentored automation engineers and trained QA teams in best practices
 
----
 
 ## 📜 Credentials
 
 - 🏅 **ISTQB CFTL** — Certified Tester Foundation Level
 
----
 
 ## 📬 Let's Connect
 
